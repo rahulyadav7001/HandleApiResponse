@@ -86,7 +86,6 @@ public class MainActivity extends AppCompatActivity {
                             && response.body().getResponseData().get(0) != null &&
                             response.body().getResponseData().get(0).getVehicles() != null
                             && response.body().getResponseData().get(0).getVehicles().size() > 0) {
-                        Log.d("Service call", " data size = "+response.body().getResponseData().get(0).getVehicles().size());
                         Log.d("Service call", " data = "+response.body().getResponseData().get(0).getVehicles().toString());
                         vehicleList = response.body().getResponseData().get(0).getVehicles();
                         tv_vehicleCount.setText("Number of vehicles found = "+ response.body().getResponseData().get(0).getVehicles().size());
