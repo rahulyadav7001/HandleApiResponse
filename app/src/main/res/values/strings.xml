@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HandleApiResponse</string>
+    <string name="PleaseWait">Please Wait...</string>
+    <string name="ConnectionIssue">Server Issue. Please Try Again later</string>
+</resources>
